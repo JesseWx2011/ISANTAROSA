@@ -17,7 +17,7 @@ if ('serviceWorker' in navigator) {
 }
 
 // Main JavaScript File (script.js)
-const apiUrl = "https://api.weather.gov/alerts/active?status=actual&event=Tornado Warning,Severe Thunderstorm Warning,Flash Flood Warning,Civil Danger Warning,Civil Emergency Message,Law Enforcement Warning,Flood Watch,Nuclear Power Plant Warning,Evacuation Immediate,Hurricane Warning,Tropical Storm Warning,Extreme Wind Warning,Storm Surge Warning,Severe Weather Statement&zone=FLZ204,FLZ203,LAZ058&limit=500";
+const apiUrl = "https://api.weather.gov/alerts/active?status=actual&event=Tornado Warning,Severe Thunderstorm Warning,Flash Flood Warning,Civil Danger Warning,Civil Emergency Message,Law Enforcement Warning,Nuclear Power Plant Warning,Evacuation Immediate,Hurricane Warning,Tropical Storm Warning,Extreme Wind Warning,Storm Surge Warning,Severe Weather Statement&zone=FLZ204,FLZ203&limit=500";
 
 async function fetchAlerts() {
   try {
